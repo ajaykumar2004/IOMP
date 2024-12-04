@@ -1,0 +1,49 @@
+# Ignore node_modules from all directories
+**/node_modules/
+
+# Ignore logs
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+
+# Ignore environment variable files
+**/.env
+**/.env.local
+**/.env.*.local
+
+# Ignore frontend-specific files
+frontend/build/
+frontend/dist/
+frontend/.cache/
+frontend/.vite/
+frontend/.parcel-cache/
+frontend/coverage/
+frontend/*.lcov
+
+# Ignore Python virtual environment
+backend/venv/
+
+# Ignore Python-specific files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore testing artifacts
+frontend/coverage/
+frontend/*.lcov
+
+# IDE/Editor-specific files
+**/.idea/
+**/.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+
+# Miscellaneous
+*.pid
+*.seed
+*.pid.lock
+*.env.*
+*.map
